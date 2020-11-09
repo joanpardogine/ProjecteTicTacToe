@@ -151,7 +151,8 @@ public class TicTacToeGUI extends JFrame {
 		// 0,0 + 1,1 + 2,2		
 		// 0,2 + 1,1 + 2,0
     
-		
+		// per controlar que el jugadorActual 
+		// apareix a les Columnes
 		// 0,0 + 1,0 + 2,0
    	if (taulell[0][0].getText().equals(jugadorActual)  &&
    		taulell[1][0].getText().equals(jugadorActual)  &&
